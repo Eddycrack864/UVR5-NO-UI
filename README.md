@@ -10,6 +10,7 @@ This colab was created based on [python-audio-separator](https://github.com/kara
 * BS-Roformer ViperX Models
 * VIP Models
 * Batch Separation
+* Youtube Audio Downloader
 
 ## How To Use
 1. In your Google Drive account create 2 folders. One for the audios you are going to separate and another where the separated files will be saved.
@@ -22,6 +23,10 @@ This colab was created based on [python-audio-separator](https://github.com/kara
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/aba483bc-6d1f-4817-8b04-1dfe65624d01)
 5. Now you have the separated audios in the output folder!
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/4f70b567-bfc6-4bb8-ad23-288fab12a8c4)
+**Extra:**
+You can download the audio of a YouTube video by entering the link of the video, the path where it will be saved (it is recommended that it be the same where you save the audios that you are going to separate) and the audio format.
+![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/960d9444-e29e-4523-aeac-e1f370da0250)
+
 
 ## Contributions
 If you want to participate and help me with this project feel free to create an [issue](https://github.com/Eddycrack864/UVR5-NO-UI/issues) if something goes wrong or make a [pull request](https://github.com/Eddycrack864/UVR5-NO-UI/pulls) to improve this project.
@@ -37,3 +42,4 @@ You can donate to the original UVR5 project here:
 ## Credits
 * MVSEP-MDX23-Colab_v2 by [Jarredou](https://github.com/jarredou)
 * python-audio-separator by [beveradb](https://github.com/beveradb)
+* Youtube Audio Downloader and Improvements by [Blane187](https://github.com/Blane187)
