@@ -1,3 +1,6 @@
+<h1 align="center"></h1>
+<div align="center">
+
 # **🎵 UVR5 NO UI 🎵**
 
 [![Open In Collab](https://img.shields.io/badge/google_colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Eddycrack864/UVR5-NO-UI/blob/main/UVR5_NO_UI.ipynb)
