@@ -1,4 +1,4 @@
-# **🎵 UVR5 NO UI 🎵**
+<h1 align="center"><b> 🎵 UVR5 NO UI 🎵 <b></h1>
 
 [![Open In Collab](https://img.shields.io/badge/google_colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Eddycrack864/UVR5-NO-UI/blob/main/UVR5_NO_UI.ipynb)
 
@@ -19,7 +19,7 @@ This colab was created based on [python-audio-separator](https://github.com/kara
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/65e74764-a40e-41e2-b89a-971e78b0c552)
 3. Run the first cell and give it access permissions to Google Drive.
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/4fa0da23-78f5-4369-a7a6-df73c0cba919)
-4. Select the model you want to use and its parameters, then run the cell.
+4. Place the paths to the folders you created in Google Drive then select the model you want to use and its parameters, then run the cell.
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/aba483bc-6d1f-4817-8b04-1dfe65624d01)
 5. Now you have the separated audios in the output folder!
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/4f70b567-bfc6-4bb8-ad23-288fab12a8c4)
