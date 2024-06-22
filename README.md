@@ -1,14 +1,27 @@
 <h1 align="center"><b> 🎵 UVR5 NO UI 🎵 <b></h1>
+  
+<div align="center">
 
-[![Open In Collab](https://img.shields.io/badge/google_colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Eddycrack864/UVR5-NO-UI/blob/main/UVR5_NO_UI.ipynb)
+[![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange)](https://github.com/Eddycrack864/UVR5-NO-UI)
 
-This colab was created based on [python-audio-separator](https://github.com/karaokenerds/python-audio-separator) (a CLI version of UVR5) and [MVSEP-MDX23-Colab_v2](https://github.com/jarredou/MVSEP-MDX23-Colab_v2) repositories. This includes:
+![cutecounter](https://count.nett.moe/get/uvr5_no_ui_colab/img?theme=rule34)
+
+[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/github/Eddycrack864/UVR5-NO-UI/blob/main/UVR5_NO_UI.ipynb)
+[![Licence](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/Eddycrack864/UVR5-NO-UI/blob/main/LICENSE)
+[![Discord](https://img.shields.io/badge/Community-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/aihub)
+
+This colab is based on [python-audio-separator](https://github.com/karaokenerds/python-audio-separator) (a CLI version of UVR5). This project was originally created for the [AI ​​HUB](https://discord.gg/aihub) community.
+
+</div>
+
+## Features: 
 * All VR Arch Models
 * All MDX-NET Models
 * Demucs v4 Models
 * MDX23C Models
 * BS-Roformer ViperX Models
 * VIP Models
+* Drumsep (Drum separation based on a Hybrid Demucs model)
 * Batch Separation
 * Separation of YouTube videos/shorts
 * Youtube Audio Downloader
@@ -28,7 +41,6 @@ This colab was created based on [python-audio-separator](https://github.com/kara
 You can download the audio of a YouTube video by entering the link of the video, the path where it will be saved (it is recommended that it be the same where you save the audios that you are going to separate), audio format and the name of the audio (give it the name you want)
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/67445e12-3962-486a-9e4f-8ce819421fde)
 
-
 ## Contributions
 If you want to participate and help me with this project feel free to create an [issue](https://github.com/Eddycrack864/UVR5-NO-UI/issues) if something goes wrong or make a [pull request](https://github.com/Eddycrack864/UVR5-NO-UI/pulls) to improve this project.
 
@@ -41,6 +53,6 @@ You can donate to the original UVR5 project here:
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/uvr5)
 
 ## Credits
-* MVSEP-MDX23-Colab_v2 by [Jarredou](https://github.com/jarredou)
 * python-audio-separator by [beveradb](https://github.com/beveradb)
 * Youtube Audio Downloader and Improvements by [Blane187](https://github.com/Blane187)
+* drumsep by [inagoy](https://github.com/inagoy)
