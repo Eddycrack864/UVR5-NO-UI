@@ -54,5 +54,5 @@ You can donate to the original UVR5 project here:
 
 ## Credits
 * python-audio-separator by [beveradb](https://github.com/beveradb)
-* Youtube Audio Downloader and Improvements by [Blane187](https://github.com/Blane187)
+* Youtube Audio Downloader and Improvements by [Blane187](https://huggingface.co/Blane187)
 * drumsep by [inagoy](https://github.com/inagoy)
