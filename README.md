@@ -7,6 +7,7 @@
 ![cutecounter](https://count.nett.moe/get/uvr5_no_ui_colab/img?theme=rule34)
 
 [![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/github/Eddycrack864/UVR5-NO-UI/blob/main/UVR5_NO_UI.ipynb)
+[![Open In Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/code/eddycrack864/uvr5-no-ui)
 [![Licence](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/Eddycrack864/UVR5-NO-UI/blob/main/LICENSE)
 [![Discord](https://img.shields.io/badge/Community-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/aihub)
 
@@ -25,6 +26,7 @@ This colab is based on [python-audio-separator](https://github.com/karaokenerds/
 * Batch Separation
 * Separation of YouTube videos/shorts
 * Youtube Audio Downloader
+* Kaggle Support
 
 ## How To Use
 1. In your Google Drive account create 2 folders. One for the audios you are going to separate and another where the separated files will be saved.
