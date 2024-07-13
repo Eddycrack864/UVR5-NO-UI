@@ -24,8 +24,8 @@ This colab is based on [python-audio-separator](https://github.com/karaokenerds/
 * VIP Models
 * Drumsep (Drum separation based on a Hybrid Demucs model)
 * Batch Separation
-* Separation of YouTube videos/shorts
-* Youtube Audio Downloader
+* Separation of videos/audios by link. Check the complete list [here](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
+* Audio Downloader
 * Kaggle Support
 
 ## How To Use
@@ -56,5 +56,6 @@ You can donate to the original UVR5 project here:
 
 ## Credits
 * python-audio-separator by [beveradb](https://github.com/beveradb)
-* Youtube Audio Downloader and Improvements by [Blane187](https://huggingface.co/Blane187)
+* Audio Downloader and Improvements by [Blane187](https://huggingface.co/Blane187)
 * drumsep by [inagoy](https://github.com/inagoy)
+* yt_dlp by [yt_dlp](https://github.com/yt-dlp)
