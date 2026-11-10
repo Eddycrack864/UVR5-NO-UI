@@ -14,31 +14,41 @@
 [![Licence](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/Eddycrack864/UVR5-NO-UI/blob/main/LICENSE)
 [![Discord](https://img.shields.io/badge/Community-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/aihub)
 
-This colab is based on [python-audio-separator](https://github.com/karaokenerds/python-audio-separator) (a CLI version of UVR5). This project was originally created for the [AI ​​HUB](https://discord.gg/aihub) community.
+This colab is the no-UI version of [UVR5-UI](https://github.com/Eddycrack864/UVR5-UI), based on [python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) (a CLI version of UVR5). This project was originally created for the [AI ​​HUB](https://discord.gg/aihub) community.
 
 </div>
 
-## Features: 
-* All VR Arch Models
-* All MDX-NET Models
-* Demucs v4 Models
-* MDX23C Models
-* BS-Roformer ViperX Models
-* VIP Models
+## Features:
+* Same models and settings as [UVR5-UI](https://github.com/Eddycrack864/UVR5-UI) (audio-separator 0.47)
+* Roformer models: BS-Roformer and MelBand Roformer (92 models)
+* MDX23C, MDX-NET, VR Arch and Demucs v4 models
+* Ensemble: combine 2-4 models with 11 algorithms or use the audio-separator presets (vocals, instrumental, karaoke...)
 * Drumsep (Drum separation based on a Hybrid Demucs model)
-* Batch Separation
-* Separation of videos/audios by link. Check the complete list [here](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
+* Batch Separation: separate every audio file of a folder, loading the model only once
+* Input: an audio file, a folder or a link to a video/audio. Check the complete list of sites [here](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
+* All settings: pitch shift, single stem output, normalization/amplification, denoise, TTA, post process...
+* Performance settings: precision (fp32, autocast, native fp16), torch.compile, chunked processing for long audios
+* Custom output file names
 * Audio Downloader
 * Kaggle Support
+
+## Best Models
+| Stem | Model |
+|---|---|
+| Instrumental | BS Roformer \| Instrumental Resurrection by unwa |
+| Vocals | BS Roformer SW by jarredou |
+| Karaoke | BS Roformer \| Karaoke by anvuew |
+| De-Reverb | MelBand Roformer \| De-Reverb by anvuew |
+| Denoise | MelBand Roformer \| Denoise-Debleed by Gabox |
 
 ## How To Use
 1. In your Google Drive account create 2 folders. One for the audios you are going to separate and another where the separated files will be saved.
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/849a1559-3993-419e-a148-f22d25df6ca7)
 2. Upload all the audios you want to separate into the folder you created.
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/65e74764-a40e-41e2-b89a-971e78b0c552)
-3. Run the first cell and give it access permissions to Google Drive.
+3. Run the first cell (Installation) and give it access permissions to Google Drive. Optionally, run the Settings cell to change the precision, chunking or the output file names.
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/4fa0da23-78f5-4369-a7a6-df73c0cba919)
-4. Place the paths to the folders you created in Google Drive or YouTube video/short link, then select the model you want to use and its parameters, then run the cell.
+4. Place the path to an audio file or to the folder you created in Google Drive (every audio file inside will be separated), or a YouTube video/short link, and the output folder. Then select the model you want to use and its parameters, and run the cell. To combine several models use the Ensemble cell.
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/e9267605-7867-414e-b48b-3b7944fd83d5)
 5. Now you have the separated audios in the output folder!
 ![image](https://github.com/Eddycrack864/UVR5-NO-UI/assets/89285504/4f70b567-bfc6-4bb8-ad23-288fab12a8c4)
@@ -58,7 +68,10 @@ You can donate to the original UVR5 project here:
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/uvr5)
 
 ## Credits
-* python-audio-separator by [beveradb](https://github.com/beveradb)
+* [python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) by [beveradb](https://github.com/beveradb)
 * Audio Downloader and Improvements by [Blane187](https://huggingface.co/Blane187)
 * drumsep by [inagoy](https://github.com/inagoy)
 * yt_dlp by [yt_dlp](https://github.com/yt-dlp)
+
+## Maintenance
+The model lists are generated from UVR5-UI's catalog. To sync them run `python tools/sync_models.py` (it reads `../UVR5-UI/assets/models.json`, use `--catalog` for another path and `--check` to only check).
